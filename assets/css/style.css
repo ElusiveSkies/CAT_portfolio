@@ -13,7 +13,6 @@ nav {
 
 .nav-wrapper {
   background-color: #2c3531;
-  /* justify-content:flex-start; */
 }
 
 .menu {
@@ -28,19 +27,33 @@ a {
 }
 
 a:hover {
-  color:#116466;
+  color:#32e1e4;
   background-color: #2c3531 !important;
+}
+
+#mobile {
+  width: 200px;
+  background-color: #c9cecc;
+  color: #188f91;
+}
+
+.sidenav li > a:hover {
+  color: #fff;
+}
+
+.sidenav li > a > i:hover {
+  color: #fff;
 }
 
 
 .description {
   margin: 10px;
   padding: 20px;
-  /* height: 10vh;  */
   min-height: 10vh; 
   border: 1px solid #2c3531;
   border-radius: 20px;
   background-color: #c9cecc;
+  color: #2c3531;
   text-align: center;
 }
 
@@ -53,15 +66,17 @@ a:hover {
   height: 75vh;
   border-radius: 20px;
   background-color: #c9cecc;
+  color: #2c3531;
   text-align: center;
 }
 
 .page-footer {
-  margin-bottom: auto;
+  /* margin-bottom: auto; */
+  text-align: center;
   background-color: #2c3531;
 }
 
 .lowerLinks {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
