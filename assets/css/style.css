@@ -106,3 +106,7 @@ main {
 .linkedInImg:hover {
   background-color: #32e1e4
 }
+
+.materialize.icons {
+  font-size: 125%;
+}
