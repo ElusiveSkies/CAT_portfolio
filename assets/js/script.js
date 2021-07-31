@@ -4,6 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 document.addEventListener('DOMContentLoaded', function() {
-    var closer = document.querySelectorAll('.sidenav-closer');
+    var closer = document.querySelectorAll('.sidenav-close');
     var instances = M.Dropdown.init(closer, close);
   });

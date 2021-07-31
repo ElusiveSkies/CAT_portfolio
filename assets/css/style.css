@@ -14,12 +14,12 @@ nav {
   box-shadow: 0px 0px;
 }
 
-nav a > i {
-  font-size: 32%;
+nav ul a {
+  font-size: 140%;
 }
 
 nav i.material-icons {
-  font-size: 125%;
+  font-size: 135%;
 }
 
 .nav-wrapper {
@@ -91,4 +91,18 @@ main {
 .lowerLinks {
   display: flex;
   justify-content: space-evenly;
+}
+
+.contactImg {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.contactImg:hover {
+  background-color: #32e1e4
+}
+
+.linkedInImg:hover {
+  background-color: #32e1e4
 }
