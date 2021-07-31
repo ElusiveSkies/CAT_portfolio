@@ -2,4 +2,6 @@
 Casey's updated portfolio
 
 ## Layout
-Created basic layout using materialize
+Created layout using materialize
+Added google font
+Edited color palette, menu responses, and footer style

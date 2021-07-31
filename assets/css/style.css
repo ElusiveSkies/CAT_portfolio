@@ -14,7 +14,11 @@ nav {
   box-shadow: 0px 0px;
 }
 
-nav ul a {
+nav a > i {
+  font-size: 32%;
+}
+
+nav i.material-icons {
   font-size: 125%;
 }
 
@@ -52,6 +56,10 @@ a:hover {
   color: #fff;
 }
 
+.sidenav li > a > i {
+  font-size: 125%;
+}
+
 .sidenav li > a > i:hover {
   color: #fff;
 }
@@ -59,17 +67,6 @@ a:hover {
 main {
   flex: 1 0 auto;
 }
-
-/* .description {
-  margin: 10px;
-  padding: 20px;
-  min-height: 10vh;
-  border: 1px solid #313533;
-  border-radius: 20px;
-  background-color: #c9cecc;
-  color: #313533;
-  text-align: center;
-} */
 
 .content {
   display: flex;
