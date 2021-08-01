@@ -24,6 +24,7 @@ nav i.material-icons {
 
 .nav-wrapper {
   background-color: #313533;
+  height: fit-content;
 }
 
 .menu {
@@ -68,7 +69,7 @@ main {
   flex: 1 0 auto;
 }
 
-.content {
+#content {
   display: flex;
   flex-direction: column;
   border: 1px solid #2c3531;
