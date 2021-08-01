@@ -80,7 +80,7 @@ main {
   background-color: #c9cecc;
   color: #313533;
   text-align: center;
-  align-content: center;
+  justify-content: center;
   height: fit-content;
 }
 
@@ -128,12 +128,12 @@ main {
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
-  width: 85%;
+  width: 100%;
 }
 
 .project {
   font-size: 100%;
-  margin: 5px;
+  margin: 10px 0px;
   align-content: center;
   border: 3px solid #313533;
   width: fit-content;
@@ -158,3 +158,4 @@ main {
   color: #fff;
   font-size: 115%;
 }
+
