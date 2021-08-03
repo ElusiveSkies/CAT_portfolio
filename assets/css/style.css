@@ -169,3 +169,11 @@ main {
 span {
    font-size: 180%;
 }
+
+
+@media only screen and (max-width: 600px) {
+#picMe {
+  width: 200px;
+  height: 200px;
+}
+}
