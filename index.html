@@ -17,7 +17,7 @@
 <body>
   <div class="navbar-fixed">
     <nav>
-      <div class="nav-wrapper" id="top">
+      <div class="nav-wrapper">
         <img class="catLogo" src="assets/images/cat-logo.png" alt="CAT Web Design Logo" width="99px" height="55px" />
         <a href="#" data-target="mobile" class="sidenav-trigger">
           <i class="material-icons">&#9776;</i>
@@ -30,25 +30,25 @@
         </ul>
       </div>
     </nav>
-
+  </div>
     <div class="nav-wrapper">
       <ul class="sidenav" id="mobile">
         <li>
           <a href="#" class="sidenav-close"><i class="material-icons">close</i></a>
         </li>
-        <li><a href="#top">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#works">Work</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="sidenav-close" href="#top">Home</a></li>
+        <li><a class="sidenav-close" href="#about">About</a></li>
+        <li><a class="sidenav-close" href="#works">Work</a></li>
+        <li><a class="sidenav-close" href="#contact">Contact</a></li>
       </ul>
     </div>
-  </div>
+
   <main>
-    <div class="container">
+    <div class="container" id="top">
       <div class="row">
         <div class="col s12" id="content">
           <div class="col l12 m12 s12">
-            <header class="card row">
+            <header class="row">
               <div class="col l6 m6 s1">
                 <span>C</span>asey
                 <br>
@@ -65,9 +65,9 @@
           </div>
 
           <div class="examples" id="about">
-            <div class="col l12 m12 s12 card">
+            <div class="col l12 m12 s12">
               <div class="col l12 m12 s12">
-                <div class="col l6 m6 card"><img id="picMe"
+                <div class="col l6 m6"><img id="picMe"
                     src="https://avatars.githubusercontent.com/u/83562370?v=4" />
                 </div>
                 <div class="col l6 m6 s12">
@@ -84,7 +84,7 @@
                     In my free time I enjoy lifting, hanging out with my family,
                     and reading.
                   </p>
-                  <div class="resume col">Resume:<a href="assets/resume/CAT-resume-cut-Aug2021.pdf"><i
+                  <div class="resume col">Resume: <a href="assets/resume/CAT-resume-cut-Aug2021.pdf"><i
                         class="small material-icons">file_download</i></a>
                   </div>
                 </div>

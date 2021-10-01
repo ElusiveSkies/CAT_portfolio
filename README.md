@@ -1,31 +1,34 @@
 # CAT_portfolio
 Casey's updated portfolio
 
-An updated portfolio to showcase my current fluency with the languages mentioned.
+[[Repository Link](https://elusiveskies.github.io/CAT_portfolio/)]
 
-https://elusiveskies.github.io/CAT_portfolio/
-https://github.com/ElusiveSkies/CAT_portfolio
+[[Deployed Portfolio](https://github.com/ElusiveSkies/CAT_portfolio)]
 
-## Layout
-Built with the following:
+## Table of Contents
+
+- [Description](#Description)
+- [License](#License)
+- [Questions](#Questions)
+
+## Description
+An updated portfolio to showcase my current fluency with the languages, frameworks, etc below:
 * HTML
 * CSS
 * Javascript
 * Materialize CSS Library
 * Google Fonts
+* MySQL Databases
+* Express
+* Sequelize
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-## Index page
-Contains logo, menu, and name
+## Questions
 
-## Footer menu
-Updated footer menu with symbols and links corresponding to them
+[[Contact me](mailto:elusiveskies@gmail.com)]
 
-## Work page
-Created work page with gifs of previous Works.
-Added cards to display and describe previous works.
-
-## About pages
-Talks about me, shows my picture, and a link to my resume
-
-![Image of index page on desktop screen](https://elusiveskies.github.io/CAT_portfolio/assets/images/cat_portfolio.png)
+[[Elusiveskies](https://www.github.com/Elusiveskies)]
