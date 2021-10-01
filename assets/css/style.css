@@ -104,7 +104,7 @@ main {
 }
 
 .contactImg:hover {
-  background-color: #32e1e4
+  background-color: #999999;
 }
 
 .linkedInImg:hover {
@@ -168,7 +168,7 @@ main {
 }
 
 .externalLink:hover {
-  color: #32e1e4;
+  color: #d1d1d1;
   background-color: #6e6e6e !important;
 }
 
@@ -195,7 +195,3 @@ span {
   height: 200px;
 }
 }
-
-
-  /* background-color: #c9cecc;
-  color: #313533; */
