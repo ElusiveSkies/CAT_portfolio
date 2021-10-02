@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
-<body>
+<body id="top">
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
@@ -31,25 +31,25 @@
       </div>
     </nav>
   </div>
-    <div class="nav-wrapper">
-      <ul class="sidenav" id="mobile">
-        <li>
-          <a href="#" class="sidenav-close"><i class="material-icons">close</i></a>
-        </li>
-        <li><a class="sidenav-close" href="#top">Home</a></li>
-        <li><a class="sidenav-close" href="#about">About</a></li>
-        <li><a class="sidenav-close" href="#works">Work</a></li>
-        <li><a class="sidenav-close" href="#contact">Contact</a></li>
-      </ul>
-    </div>
+  <div class="nav-wrapper">
+    <ul class="sidenav" id="mobile">
+      <li>
+        <a href="#" class="sidenav-close"><i class="material-icons">close</i></a>
+      </li>
+      <li><a class="sidenav-close" href="#top">Home</a></li>
+      <li><a class="sidenav-close" href="#about">About</a></li>
+      <li><a class="sidenav-close" href="#works">Work</a></li>
+      <li><a class="sidenav-close" href="#contact">Contact</a></li>
+    </ul>
+  </div>
 
   <main>
-    <div class="container" id="top">
+    <div class="container">
       <div class="row">
         <div class="col s12" id="content">
           <div class="col l12 m12 s12">
             <header class="row">
-              <div class="col l6 m6 s1">
+              <div class="hide-on-small-only col l6 m6 s1">
                 <span>C</span>asey
                 <br>
                 <span>A</span>lden
@@ -57,25 +57,33 @@
                 <span>T</span>wine
                 <br>
               </div>
-              <div class="col l6 m6 s1">
+              <div class="col l6 m6 s12">
                 <img src="./assets/images/cat-logo-original.png" alt="Complete CAT Web Design Logo" width="315px"
                   height="225px" />
+                  <div class="hiddenName center-align">Casey Alden Twine</div>
               </div>
             </header>
+            
           </div>
 
           <div class="examples" id="about">
             <div class="col l12 m12 s12">
               <div class="col l12 m12 s12">
-                <div class="col l6 m6"><img id="picMe"
-                    src="https://avatars.githubusercontent.com/u/83562370?v=4" />
+                <div class="col l6 m6"><img id="picMe" src="https://avatars.githubusercontent.com/u/83562370?v=4" />
+                  <div class="resume col">
+                      <a href="assets/resume/CAT-resume-cut-Aug2021.pdf" target="_blank" download="CAT-resume-Aug2021.pdf">
+                      <button class="resumeLink" type="button">
+                        Download Resume
+                      </button>
+                      </a>
+                  </div>
                 </div>
                 <div class="col l6 m6 s12">
                   <p id="contentHeading">About me</p>
                   <p>
-                    I have always found technology and, by association, coding
-                    exciting. After more than ten years working in various
-                    pharmaceutical laboratories as an analytical chemist, I'm
+                    I am an enthusiastic web developer who has always found technology 
+                    and, by association, coding exciting. After more than ten years 
+                    working in various pharmaceutical laboratories as an analytical chemist, I'm
                     hoping to turn an old hobby into a career. This led to my
                     enrollment in the UNC Chapel Hill Coding Bootcamp where I've
                     becoming familiar with HTML, CSS, Javascript, Git, Node, and MySQL.
@@ -84,9 +92,6 @@
                     In my free time I enjoy lifting, hanging out with my family,
                     and reading.
                   </p>
-                  <div class="resume col">Resume: <a href="assets/resume/CAT-resume-cut-Aug2021.pdf"><i
-                        class="small material-icons">file_download</i></a>
-                  </div>
                 </div>
               </div>
             </div>

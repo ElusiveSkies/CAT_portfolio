@@ -16,6 +16,7 @@ nav {
 
 nav ul a {
   font-size: 140%;
+  line-height: 56px;
 }
 
 nav i.material-icons {
@@ -25,6 +26,7 @@ nav i.material-icons {
 .nav-wrapper {
   background-color: #313533;
   height: fit-content;
+  padding: 0px;
   border-bottom: 1px solid white;
 }
 
@@ -70,6 +72,10 @@ main {
   flex: 1 0 auto;
 }
 
+.hiddenName {
+  display: none;
+}
+
 #content {
   display: flex;
   flex-direction: column;
@@ -108,7 +114,7 @@ main {
 }
 
 .linkedInImg:hover {
-  background-color: #32e1e4
+  background-color: #32e1e4;
 }
 
 .drag-target {
@@ -119,7 +125,7 @@ main {
   font-size: 225%;
   background-color: #313533;
   color: #fff;
-  border-radius: 10px;
+  margin-block-start: 0em;
 }
 
 .examples {
@@ -173,13 +179,26 @@ main {
 }
 
 .resume {
-  display: flex;
   color: #fff;
   background-color: #313533;
+  font-size: 150%;
+  width: 100%;
+  align-self: center;
+}
+
+.resumeLink {
+  background-color: #313533;
+  border: none;
+  color: white;
+}
+
+.resumeLink:hover {
+  background-color: #313533;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
 
 span {
-   font-size: 180%;
+  font-size: 180%;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -187,11 +206,21 @@ span {
     width: 300px;
     height: 300px;
   }
-  }
+}
 
 @media only screen and (max-width: 800px) {
-#picMe {
-  width: 200px;
-  height: 200px;
-}
+  #picMe {
+    width: 200px;
+    height: 200px;
+  }
+
+  .name {
+    display: none;
+  }
+
+  .hiddenName {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 }
