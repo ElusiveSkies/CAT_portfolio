@@ -74,6 +74,7 @@ main {
 
 .hiddenName {
   display: none;
+  font-size: 175%;
 }
 
 #content {
@@ -122,10 +123,11 @@ main {
 }
 
 #contentHeading {
-  font-size: 225%;
+  font-size: 175%;
   background-color: #313533;
   color: #fff;
   margin-block-start: 0em;
+  padding-top: 5%;
 }
 
 .examples {
@@ -136,7 +138,6 @@ main {
   justify-content: space-evenly;
   align-content: center;
   width: 100%;
-  padding-top: 5%;
 }
 
 .project {
@@ -181,7 +182,7 @@ main {
 .resume {
   color: #fff;
   background-color: #313533;
-  font-size: 150%;
+  font-size: 95%;
   width: 100%;
   align-self: center;
 }
